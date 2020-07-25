@@ -1,6 +1,9 @@
-import tensorflow as tf
+# Tensorflow v1 compatibility
+import tensorflow.compat.v1 as tf 
+tf.disable_v2_behavior()
+import tf_slim as slim
+
 import numpy as np
-import tensorflow.contrib.slim as slim
 
 
 
